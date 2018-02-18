@@ -60,7 +60,7 @@ const createGameBoard = function (number) {
   const gameBoardHtml = gameBoardTemplate({
     rows: createRows(number)
   })
-  $('.game-board-html').append(gameBoardHtml)
+  $('.game-world-html').append(gameBoardHtml)
 }
 
 

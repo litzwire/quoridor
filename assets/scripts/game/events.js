@@ -10,6 +10,7 @@ const addHandlers = function () {
   $(document).ready(onLoad)
 }
 
+// Export functions for use in other files.
 module.exports = {
   addHandlers
 }

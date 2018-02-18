@@ -8,6 +8,7 @@ const createWorld = function (number) {
   players.createPlayers();
 }
 
+// Export functions for use in other files.
 module.exports = {
   createWorld
 }
