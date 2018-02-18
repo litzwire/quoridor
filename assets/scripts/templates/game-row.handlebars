@@ -1,2 +1,5 @@
-<tr class="game-board-row" data-row-row-id="{{number}}">
+<tr class="game-board-row" data-row-row-id="{{row_index}}">
+    {{#each cells as |cell|}}
+        {{> game-cell row_index=cell.row_index cell_index=cell.cell_index}}
+    {{/each}}
 </tr>

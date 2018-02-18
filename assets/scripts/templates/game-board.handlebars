@@ -1,7 +1,7 @@
   <div class="game">
     <h1>game-board handlebars</h1>
     <table class="game-grid">
-      <tbody class="game-body">
+      <tbody class="game-board">
         {{#each rows as |row|}}
           {{> game-row number=row.row_index}}
         {{/each}}
